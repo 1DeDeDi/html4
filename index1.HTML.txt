@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Домашние задание по Puthon</title>
+</head>
+<body>
+<pre>
+<code>
+ns='''Добровольский Данил,
+Иванов Евгений,
+Литвиненко Тимофей'''
+user_name=input("Введите свои имя и фамилию: ")
+if user_name in ns:
+    print("Есть в базе данных")
+else:
+    print("Нет в базе данных")
+
+
+
+def con(a,b):
+    print(str.lower(a+b))
+
+str1=str(input("Введите первую часть строки: "))
+str2=str(input("Введите вторую часть строки: "))
+con(str1,str2)
+</code>
+</pre>
+</body>
+</html>
